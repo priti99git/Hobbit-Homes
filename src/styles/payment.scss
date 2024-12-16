@@ -1,0 +1,128 @@
+@import "./variables.scss";
+@import "./breakpoints.scss";
+
+
+// p {
+//   font-size: 20px;
+//   font-weight: 700;
+//   margin: 0;
+// }
+p {
+  font-size: 16px;
+}
+.payment-page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .payment-content {
+    max-width: 800px;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .payment-title {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  // .list {
+  //   display: flex;
+  //   flex-wrap: wrap;
+  //   justify-content: space-between;
+  // }
+  
+  .total-payment {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .payment-method {
+    margin-top: 20px;
+  }
+  
+  .payment-buttons {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .pay-now-button,
+  .cancel-booking-button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #e83052;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .pay-now-button:hover,
+  .cancel-booking-button:hover {
+    background-color: #de2a39;
+  }
+  
+  .submit_btn {
+    margin-top: 40px;
+
+    @include buttonStyle;
+
+    &:hover {
+      box-shadow: 0 0 10px 3px rgb(226, 95, 95);
+    }
+  }
+
+  .container {
+    background-color: #f2f2f2;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+  }
+  
+ input#cname{width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #aaa5a5;
+  border-radius: 3px;
+}
+input#ccnum{width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #aaa5a5;
+  border-radius: 3px;
+}
+input#expmonth{width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #aaa5a5;
+  border-radius: 3px;
+}
+input#expyear{width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #aaa5a5;
+  border-radius: 3px;
+}
+ input#cvv{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #aaa5a5;
+    border-radius: 3px;
+
+    // border: 1px solid $grey;
+    // border-radius: 30px;
+    // height: 50px;
+    // padding: 0px 20px;
+    // display: flex;
+    // gap: 40px;
+    // align-items: center;
+
+  }
+  
